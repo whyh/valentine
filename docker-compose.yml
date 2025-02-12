@@ -1,0 +1,8 @@
+services:
+  valentine:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/usr/share/nginx/html
+    command: /bin/sh -c "nginx -g 'daemon off;' & inotifywait -m -e close_write /usr/share/nginx/html && nginx -s reload"
