@@ -1,7 +1,7 @@
 .flower {
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 75%;
   transform: translate(-50%, -50%);
 }
 
@@ -9,14 +9,13 @@
   height: 350px;
   width: 200px;
   background: #122139;
-  border-radius: 300px 300px 0px 0px;
+  border-radius: 300px 300px 0 0;
 }
 .glass:before {
   content: "";
   height: 10px;
   width: 10px;
-  transform-origin: center;
-  border: 10px solid #122139;
+  border: 10px solid #122139 !important;
   border-radius: 100%;
   position: absolute;
   left: 87px;
