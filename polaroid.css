@@ -8,7 +8,6 @@
     background: #afa1cf;
     padding: 1rem;
     transition: all 0.35s;
-    margin-bottom: 10rem;
 }
 .polaroid:hover, .visible {
     z-index: 2;
